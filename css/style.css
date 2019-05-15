@@ -1,0 +1,210 @@
+/*formatar todo doc*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+#geral{
+    max-width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------TOPO-------------------------------------------------*/
+#topo{
+    width: 100%;
+    float: left;
+    background-color: rgb(169, 137, 211);
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+.links_top{
+    float: right;
+    padding: 10px;
+    margin: 5px 2px;
+    background-color: rgb(24, 11, 61);
+    color: white;
+    
+}
+
+.links_top:hover{
+    background-color: rgb(53, 23, 133);
+}
+
+/*-----------------------------------------------MENU------------------------------------------------*/
+
+
+#menu{
+    width: 100%;
+    float: left;
+    background-color:rgb(24, 11, 61);
+}
+
+/*formatar links*/
+.links_menu li a{
+    float:left;
+    padding: 15px;
+    background-color:  rgb(24, 11, 61);
+    color:white;
+}
+/*cursor*/
+.links_menu li a:hover{
+    background-color: rgb(53, 23, 133);
+}
+
+/*-----------------------------------------------CONTEUDO PAGINA-------------------------------------------------*/
+
+#conteudo{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background-color: rgb(200, 211, 152);
+    padding-bottom: 20px; 
+}
+
+#conteudo_principal{
+    width: 70%;
+    min-height: 600px;
+    float: left;
+    border: 1px solid #CCC;
+    margin: 20px 10px;
+}
+
+.postagens{
+    width: 100%;
+    height: auto;
+    overflow: hidden;/*para nao sair da div*/
+    margin: 10px 0 30px 0;
+    border: 2px solid red;
+}
+
+.imagem{
+    width: 80%;
+    float: left;
+    height: auto;
+    margin: 5px 0;
+}
+
+.titulos{
+    font-size: 20px;
+    font-family: calibri, sans-serif;
+    float: left;
+    width: 96%;
+    margin: 10px 2%;
+}
+
+.paragrafo, .data{
+    font-size: 16px; 
+    color: #333;
+    width: 96%;
+    float: left;
+    font-family: calibri, sans-serif;
+    margin: 10px 2%;
+}
+
+.postagens_recentes{
+    width: 100%;
+    height: auto;
+    overflow: hidden;/*para nao sair da div*/
+    margin: 10px 0 30px 0;
+}
+
+.titulos a:hover{
+    color:rgb(53, 23, 133);;
+}
+
+#recentes{
+    width: 26%;
+    min-height: 600px;
+    float: left;
+    border: 1px solid #CCC;
+    margin: 20px 10px;
+}
+
+/*-----------------------------------------------CONTATO-------------------------------------------------*/
+.campos, .campo_cad, #botoes, .botoes{
+    width: 80%;
+    margin: 10px 10%;
+    min-height: 30px;
+    float: left;
+    font-size: 14px;
+}
+
+.legenda{
+    font-family: cursive;
+    font-size: 18px;
+    float: left;
+    margin-left: 10%;
+}
+
+.campo2{
+    width: 80%;
+    margin: 10px 10%;
+    min-height: 150px;
+    float: left;
+}
+
+.bt_enviar{
+    float: left;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#box_form{
+    width: 80%;
+    min-height: 300px;
+    background-color: white;
+    margin: 40px auto;
+    overflow: hidden;/*força elemento dentro da div*/
+}
+
+.bt_cad{
+    float: left;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px; 
+}
+
+.form_link{
+    color: #05F;
+    font-size: 16px;
+    float: left;
+}
+
+.p_form{
+    color: #333;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+/*-----------------------------------------------RODAPE-------------------------------------------------*/
+
+#rodape{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: rgb(169, 137, 211);
+    bottom: 0;
+}
+
+.direitos{
+    text-align: center;
+    color: rgb(20, 20, 19);
+    font-size: 18px;
+    margin-top: 25px; 
+}
