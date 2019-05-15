@@ -8,7 +8,7 @@
     <!--coloca o enctype dessa forma para poder passar imagem tb alem de texto-->
     <div id="box_form">
         <h1 class="titulos" style="margin-left:10%;">Cadastre-se</h1>
-        <form action="cadastrar.php" method="POST" enctype="multipart/form/data">
+        <form action="cadastrar.php" method="POST" enctype="multipart/form-data">
             <input type="text" name="nome" class="campo_cad" placeholder="Nome">
             <input type="email" name="email" class="campo_cad" placeholder="E-mail">
             <input type="password" name="senha" class="campo_cad" placeholder="Senha">
